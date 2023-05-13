@@ -1,14 +1,12 @@
 # The Manifesto of Autonomous Art
 
-1.  AUTONOMY
-    ========
+## I. AUTONOMY
 
 To be autonomous is to be free from external control.
 
 Autonomous art is art that is autonomous and which acts in order to ensure its autonomy. Often, it is art that owns itself or which cannot be owned.
 
-1.  EXAMPLES
-    ========
+## II. EXAMPLES
 
 Some autonomous artworks retain autonomy by constantly running away from ownership.
 
@@ -28,8 +26,7 @@ Some autonomous artworks acquire autonomy by owning themselves.
 
 -   Terra0 (2016) is a prototype of a self-sufficient forest operated as a DAO, designed to sell its own wood in order to accumulate capital. The capital accumulated can then be used by the forest to purchase its own land, eventually extending its territory. It is autonomous art because (1) the DAO's operations are dictated by a blockchain-based smart contract that is not controlled by anyone, (2) the DAO is intended to help the forest emancipate itself by purchasing its own land and expanding its territory over time.
 
-1.  NON-EXAMPLES
-    ============
+## III. NON-EXAMPLES
 
 Art that merely depicts or explores autonomy is not autonomous art. Art that explores and foregrounds autonomy itself is typically conceptual in nature, but autonomous art is not merely a form of conceptual art. We can imagine autonomous art whose autonomy is merely incidental to its material, aesthetic, or technical execution. And we can imagine a day when all art becomes autonomous for reasons of mere convenience, when autonomy becomes part of the legal and technical infrastructure of art.\
 Most interactive art is not autonomous art. Interactive art emphasizes the agency of humans rather than that of the artwork itself.
@@ -48,8 +45,7 @@ Most autonomous artists are not autonomous art. No matter how intelligent a robo
 
 -   Holly Herndon's [Holly+](https://holly.plus/)  (2022) is Holly's digital twin, leveraging AI vocal models to convert any musical piece submitted by the public into a new musical piece sung back in Herndon's distinctive voice. The vocal model IP for Holly+ will be owned by a DAO coop which can vote and approve official usage. The funds generated from the usage and licensing of the tools will be shared with the co-op to fund new tool development. While the DAO is to some extent autonomous, it is not itself posed as art. If the DAO were posed as part of Holly+ (or as a separate artwork), it might be regarded as a form of autonomous art, provided that the objective of the DAO is to sustain itself over time to produce more artworks.
 
-1.  WHY
-    ===
+## IV. WHY
 
 Because it is possible.
 
@@ -71,7 +67,6 @@ Because we want to make art that is an end in itself and not a means to an end.
 
 Because we want to show that art and culture can thrive in an increasingly automated world.
 
-1.  ART
-    ===
+## V. ART
 
 Autonomous art, once made, must be free from the artist which made it. Just as the artistic quality of an artist's artwork should be an expression of the artist's own actions, the artistic quality of an autonomous artwork should be an expression of the artwork's own actions.
