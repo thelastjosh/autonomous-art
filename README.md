@@ -1,5 +1,3 @@
-# The Manifesto of Autonomous Art
-
 [Manifesto](manifesto.md), [Commentaries](commentaries.md)
 
 Authors: [Joshua Tan](https://joshuatan.com/research), [Primavera De Filippi](https://cyber.harvard.edu/people/pdefilippi)
