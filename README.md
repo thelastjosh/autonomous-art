@@ -1,4 +1,4 @@
-[Manifesto](manifesto.md), [Commentaries](commentaries.md)
+[Manifesto](manifesto.md), [Commentaries](commentaries.md), [Discussion](https://github.com/thelastjosh/autonomous-art/discussions)
 
 Authors: [Joshua Tan](https://joshuatan.com/research), [Primavera De Filippi](https://cyber.harvard.edu/people/pdefilippi)
 
