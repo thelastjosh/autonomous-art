@@ -1,5 +1,3 @@
-# Commentaries
-
 These questions do not belong in the manifesto, but they are important for understanding, imagining, and building autonomous art.
 
 ## What belongs in the manifesto?
