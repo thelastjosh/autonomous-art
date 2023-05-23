@@ -30,6 +30,10 @@ In a loose way, autonomy preservation approximates a bundle of criteria familiar
 
 Note: in the authoring of this manifesto, we thought about including this condition as an optional measure of quality or of interest rather than as part of the definition.
 
+## When is an artwork "autonomous enough" to be autonomous art?
+
+There is no precise cut-off at which point a piece of art is "autonomous enough" to be autonomous art. What counts is the relationship between whatever level of autonomy an artwork possesses and its activity to ensure that level of autonomy. A mechanical sculpture usually has a very limited degree of autonomy, merely the motion it is designed to carry out. But to the degree that it also acts to ensure that the motion endures in the world—e.g. by incorporating subroutines to oil itself, to clear away physical obstructions to its movement, to replenish its source of energy—it can be counted as autonomous art.
+
 ## When does an autonomous system constitute "art"?
 
 Most directly: when an artist declares it to be art.
@@ -45,6 +49,8 @@ It is substantially harder at present for an autonomous system to enact itself a
 Enacting itself as art is a marker of artistic quality and sophistication, but it is not the only marker of artistic quality in autonomous art.
 
 ## What else is assumed in the definition of autonomous art?
+
+In order to act to ensure its autonomy, an artwork must be able to act at all. That is, a work of autonomous art must possess some form of _agency_.
 
 Autonomy, as a condition of self-governance, requires at least some limited notion of "self". We refer to this limited notion of self as the artwork's _interior_ and the phenomenon as _interiority_, following two traditional usages of "interiority": to refer to pictorial representations of interior spaces, and to impute thoughts, emotions, and "human interiors" to art and art objects. Typically, the interior includes code and logic that determines the behavior of the art.
 
