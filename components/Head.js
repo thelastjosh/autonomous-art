@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
-const TITLE = "Constitutions of Web3"
-const DESC = "A collection of resources for creating digital constitutions"
+const TITLE = "Autonomous Art"
+const DESC = "To be autonomous is to be free from external control. Autonomous art is art that is autonomous and which acts in order to ensure its autonomy. Often, it is art that owns itself or which cannot be owned."
 
 export default function HeadComponent() {
   return <Head>
@@ -21,15 +21,15 @@ export default function HeadComponent() {
     <meta name="twitter:card" content="summary" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://constitutions.metagov.org/" />
-    <meta property="og:title" content="Constitutions of Web3" />
-    <meta property="og:description" content="Smart contracts are promising tools for governing DAOs but they alone aren't enough. In this artifact, we describe how written constitutions are an interface for a community’s shared values and must complement programmatic tools like smart contracts." />
+    <meta property="og:url" content="https://autonomous-art.vercel.app/" />
+    <meta property="og:title" content="Autonomous Art" />
+    <meta property="og:description" content="To be autonomous is to be free from external control. Autonomous art is art that is autonomous and which acts in order to ensure its autonomy. Often, it is art that owns itself or which cannot be owned. In this artifact, we describe what autonomous art is, what it is not, give examples, and comment on various facets of the artform." />
     <meta property="og:image" content="/og-image.png" />
 
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://constitutions.metagov.org/" />
-    <meta property="twitter:title" content="Constitutions of Web3" />
-    <meta property="twitter:description" content="Smart contracts are promising tools for governing DAOs but they alone aren't enough. In this artifact, we describe how written constitutions are an interface for a community’s shared values and must complement programmatic tools like smart contracts." />
-    <meta property="twitter:image" content="https://constitutions.metagov.org/og-image.png" />
+    <meta property="twitter:url" content="https://autonomous-art.vercel.app/" />
+    <meta property="twitter:title" content="Autonomous Art" />
+    <meta property="twitter:description" content="To be autonomous is to be free from external control. Autonomous art is art that is autonomous and which acts in order to ensure its autonomy. Often, it is art that owns itself or which cannot be owned. In this artifact, we describe what autonomous art is, what it is not, give examples, and comment on various facets of the artform." />
+    <meta property="twitter:image" content="https://autonomous-art.vercel.app/og-image.png" />
   </Head>
 }
