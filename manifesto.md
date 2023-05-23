@@ -1,5 +1,3 @@
-# The Manifesto of Autonomous Art
-
 ## I. AUTONOMY
 
 To be autonomous is to be free from external control.
