@@ -6,8 +6,7 @@ Authors: [Joshua Tan](https://joshuatan.com/research), [Primavera De Filippi](ht
 
 Thank you: Amy Whitaker, Jenna Caravello, Luke Nickel, Sade Abiodun, Jenny Liu Zhang, [DISI](https://disi.org/)
 
-
-> https://???.vercel.app/
+> https://autonomous-art.vercel.app/
 
 Running the application locally:
 
