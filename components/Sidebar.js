@@ -5,11 +5,9 @@ import { IoIosMenu } from "react-icons/io";
 import useOutsideClick from "../hooks/useOutsideClick"
 
 const LINKS = [
-  { label: "Introduction", href: "/" },
-  { label: "Essay", href: "/article" },
-  { label: "Constitutions", href: "https://github.com/metagov/constitution-template/tree/main/constitutions" },
-  { label: "Guide", href: "/guide" },
-  { label: "Template", href: "/template" }
+  { label: "Manifesto", href: "/" },
+  { label: "Commentaries", href: "/commentaries" },
+  { label: "About", href: "/about" },
 ]
 
 export default function Sidebar() {
