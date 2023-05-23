@@ -1,0 +1,216 @@
+html {
+  scroll-behavior: smooth;
+  background-color: #f5f5f5;
+  counter-reset: footnote-content;
+}
+
+hr {
+  overflow: visible;
+  padding: 0;
+  border: none;
+  color: #bbb;
+  text-align: center;
+  width: 300px;
+  margin: 2em auto;
+}
+
+hr:after {
+  content: "*\a0\a0\a0*\a0\a0\a0*";
+  font-weight: 400;
+  display: inline-block;
+  background: none;
+  position: relative;
+  top: -0.3em;
+  font-size: 1.5em;
+  padding: 0 1em;
+  margin: 0 -1em;
+  background: #f5f5f5;
+}
+
+p {
+  margin: 1em 0;
+}
+
+a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 1px;
+}
+
+pre, code {
+  font-size: 0.9rem !important;
+  white-space: pre-wrap;
+}
+
+img {
+  margin: 0 auto;
+  width: 80%;
+  border-radius: 5px;
+}
+
+.footnote {
+  display: inline;
+}
+
+.footnote-text {
+  text-decoration: underline dotted #bbb 2px;
+}
+
+.footnote::after {
+  text-indent: 0;
+  content: "[" counter(footnote-content) "]";
+  font-size: 0.9rem;
+  display: inline-block;
+  position: relative;
+  top: -9px;
+  right: -2px;
+  color: #222;
+  box-sizing: border-box;
+  background-color: rgba(198, 142, 255, 0);
+  border: 1px solid rgba(198, 142, 255, 0);
+  border-radius: 2px;
+  transition: all 0.4s ease;
+  line-height: 0.9rem;
+  padding: 0.05rem 0.1rem;
+}
+
+.footnote:hover > .footnote-content,
+.footnote.expanded > .footnote-content {
+  opacity: 1;
+  user-select: text;
+  max-height: 50vh;
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    left 50%,
+    left bottom,
+    from(rgba(0, 0, 0, 1)),
+    to(rgba(0, 0, 0, 1))
+  );
+}
+
+.footnote:hover::after,
+.footnote:hover .footnote-content::before {
+  background-color: #66666633;
+  border: 1px solid #999;
+}
+
+p:hover .footnote-content {
+  opacity: 0.5;
+  max-height: 50vh;
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    left 50%,
+    left bottom,
+    from(rgba(0, 0, 0, 1)),
+    to(rgba(0, 0, 0, 1))
+  );
+}
+
+.footnote-content {
+  text-indent: 0;
+  opacity: 0.3;
+  transition: opacity 0.8s ease, max-height 0.4s ease;
+  z-index: 4;
+  position: absolute;
+  color: #000;
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    left 50%,
+    left bottom,
+    from(rgba(0, 0, 0, 1)),
+    to(rgba(0, 0, 0, 0))
+  );
+  font-size: 1rem;
+  display: inline;
+
+  line-height: 1.5rem;
+  max-height: calc(3 * 1.5rem);
+  overflow: hidden;
+  padding-top: 3px;
+  text-transform: none;
+  width: 300px;
+  margin-top: -30px;
+  user-select: none;
+  text-overflow: ellipsis;
+}
+
+.footnote-content::after {
+  position: absolute;
+  content: "...";
+  inset-block-end: 0;
+  inset-inline-end: -1.5rem;
+}
+
+.footnote-content-right {
+  right: 0;
+  transform: translateX(350px);
+}
+
+.footnote-content::before {
+  content: "[" counter(footnote-content) "]";
+  counter-increment: footnote-content;
+  font-size: 0.9rem;
+  display: inline-block;
+  position: relative;
+  right: 5px;
+  color: #222;
+  box-sizing: border-box;
+  background-color: rgba(198, 142, 255, 0);
+  border: 1px solid rgba(198, 142, 255, 0);
+  border-radius: 2px;
+  transition: all 0.4s ease;
+  line-height: 0.8rem;
+  margin-left: 0.3rem;
+  padding: 0.05rem 0.1rem 0.15rem;
+}
+
+.footnote-content-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 1280px) {
+  .footnote {
+    cursor: pointer;
+    position: relative;
+  }
+  .footnote-content {
+    width:0px;
+    height: 0px;
+    opacity: 0 !important;
+    pointer-events: none;
+  }
+  .footnote-content-mobile {
+    display: initial;
+    text-transform: none;
+    position: absolute;
+    background-color: #f5f5f5;
+    font-size: 1rem;
+    padding: 16px;
+    padding-right: 24px;
+    z-index: 4;
+    width: 340px;
+    top: 32px;
+    left: 0;
+    border: 1px solid #888;
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footnote {
+    position: initial;
+  }
+  .prose > p {
+    position: relative;
+  }
+  .footnote-content {
+    opacity: 0 !important;
+  }
+  .footnote-content-mobile {
+    position: absolute;
+    width: 90vw;
+    left: -5vw;
+    top: 100%;
+  }
+}
