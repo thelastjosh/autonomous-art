@@ -7,7 +7,7 @@ import useOutsideClick from "../hooks/useOutsideClick"
 const LINKS = [
   { label: "Manifesto", href: "/" },
   { label: "Commentaries", href: "/commentaries" },
-  { label: "Discussion", href: "https://github.com/thelastjosh/autonomous-art/discussions" },
+  { label: "Discussion", href: "https://signal.group/#CjQKIGr0eKL8jL4icLLq5HrWQsWyvEtt8MhXGSsBDliC4gINEhBEy7q_0Axd2OvLToiQG3cF" },
   { label: "About", href: "/about" },
 ]
 
