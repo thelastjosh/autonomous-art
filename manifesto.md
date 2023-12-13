@@ -26,7 +26,7 @@ Some autonomous artworks acquire autonomy by owning themselves.
 
 ## III. Non-examples
 
-Art that merely depicts or explores autonomy is not autonomous art. Art that explores and foregrounds autonomy itself is typically conceptual in nature, but autonomous art is not merely a form of conceptual art. We can imagine autonomous art whose autonomy is merely incidental to its material, aesthetic, or technical execution. And we can imagine a day when all art becomes autonomous for reasons of mere convenience, when autonomy becomes part of the legal and technical infrastructure of art.
+Art that merely depicts or explores autonomy is not autonomous art. Art that explores and foregrounds autonomy itself is typically conceptual in nature, but autonomous art is not merely a form of conceptual art. We can imagine autonomous art whose autonomy is not conceptual but merely incidental to its material, aesthetic, or technical execution. And we can imagine a day when all art becomes autonomous for reasons of mere convenience, when autonomy becomes part of the legal and technical infrastructure of art.
 
 Most interactive art is not autonomous art. Interactive art emphasizes the agency of humans rather than that of the artwork itself.
 
